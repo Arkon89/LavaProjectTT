@@ -47,7 +47,5 @@ public class Bulet : MonoBehaviour
     private Vector3 GetDirection(Vector3 tatgetPosition)
     {
         return tatgetPosition - transform.position;
-    }
-
-    
+    }    
 }

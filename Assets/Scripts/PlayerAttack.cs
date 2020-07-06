@@ -32,11 +32,6 @@ public class PlayerAttack : MonoBehaviour
         {
             Debug.Log(hit.transform.gameObject);
             FindObjectOfType<Bulet>().Shooting(hit.point);
-        }
-
-
-        
+        }        
     }
-
-
 }
