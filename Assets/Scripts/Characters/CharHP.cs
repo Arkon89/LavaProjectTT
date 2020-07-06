@@ -36,4 +36,10 @@ public class CharHP : MonoBehaviour
         _animator.enabled = false;
         Time.timeScale = 0.5f;
     }
+
+    public void Restart()
+    {
+        _charHealth = 100; 
+        _isDead = false;  
+    }
 }
